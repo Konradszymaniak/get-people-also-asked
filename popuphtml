@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PAA Extractor</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        button { padding: 10px 20px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>PAA Extractor</h1>
+    <input type="text" id="query" placeholder="Enter a search query">
+    <button id="extractButton">Extract PAA Questions</button>
+    <pre id="output"></pre>
+    <script src="popup.js"></script>
+</body>
+</html>
